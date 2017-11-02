@@ -14,14 +14,14 @@ var (
 	  <body>
 		{{range .Items}}
 			{{.}}
-		{{else}}{{end}}
+		{{end}}
 	  </body>
 	</html>
 	`
 	SectionTpl =`<section {{.Class}}>
 	{{range .Items}}
 		{{.}}
-	{{else}}{{end}}
+	{{end}}
 	</section>
 `
 		

@@ -8,7 +8,7 @@ import (
 type TextViewType int
 
 const (
-	TextViewRegular = iota
+	TextViewRegular TextViewType = iota
 	TextViewP
 	TextViewH1
 	TextViewH2
